@@ -1,0 +1,3 @@
+[submodule "subvector"]
+	path = subvector
+	url = https://github.com/daniiarkhodzhaev-at/subvector.git
