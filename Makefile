@@ -12,17 +12,17 @@ clean-all: clean-subvector
 
 subvector:
 ifeq ("$(wildcard subvector/README.md)","")
-	$(info GIT cloning subvector submodule)
-	$(info $(shell git submodule update --init subvector))
+$(info GIT cloning subvector submodule)
+$(info $(shell git submodule update --init subvector))
 ifeq ("$(wildcard subvector/README.md)","")
-	$(error failed)
+$(error failed)
 endif
 endif
 	@$(MAKE) -C subvector
 
 clean-subvector:
 ifeq ("$(wildcard subvector/README.md)","")
-	$(info Nothing to do!)
+	@echo "Nothing to be done!"
 else
 	@$(MAKE) -C subvector clean
 endif
