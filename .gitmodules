@@ -1,3 +1,9 @@
 [submodule "subvector"]
 	path = subvector
 	url = https://github.com/daniiarkhodzhaev-at/subvector.git
+[submodule "2nd-course"]
+	path = 2nd-course
+	url = git@github.com:daniiarkhodzhaev-at/2nd-course.git
+[submodule "oop_forest"]
+	path = oop_forest
+	url = https://github.com/daniiarkhodzhaev-at/oop_forest.git
